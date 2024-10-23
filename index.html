@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>SmmShark</title>
+</head>
+<body>
+    <header class="header">
+       <div class="container">
+        <nav class="nav">
+            <a class="logo">
+                <img class="logo-img" src="images/logo.svg" alt="лого сайту">
+            </a>
+
+            <ul class="sidebar">
+                <button onclick=toggleSidebar()  class="burger-close" type="button"></button>
+                <li class="menu-item">
+                    <a class="menu-link" href="#main">Головна</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="#services">Послуги</a>
+                    <ul>
+                        <li><a href="#instagram">Instagram</a></li>
+                        <li><a href="#tiktok">TikTok</a></li>
+                        <li><a href="#target">Target</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="#about-us">Про нас</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="#cases">Кейси</a>
+                    <ul>
+                        <li><a href="#cases">snazzy</a></li>
+                        <li><a href="#cases">auto</a></li>
+                        <li><a href="#cases">bibliotek</a></li>
+                        <li><a href="#cases">global</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="#contacts">Контакти</a>
+                </li>
+            </ul>
+
+            <ul class="menu">
+                
+                <li class="menu-item">
+                    <a class="menu-link" href="#main">Головна</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="#services">Послуги</a>
+                    <ul>
+                        <li><a href="#instagram">Instagram</a></li>
+                        <li><a href="#tiktok">TikTok</a></li>
+                        <li><a href="#target">Target</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="#about-us">Про нас</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="#cases">Кейси</a>
+                    <ul>
+                        <li><a href="#cases">snazzy</a></li>
+                        <li><a href="#cases">auto</a></li>
+                        <li><a href="#cases">bibliotek</a></li>
+                        <li><a href="#cases">global</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="#contacts">Контакти</a>
+                </li>
+            </ul>
+            <button onclick=toggleSidebar()  class="menu-btn" type="button">
+            </button>
+            
+               
+        </nav>
+       </div>
+    </header>
+    
+    <main class="main">
+        <section class="main-page" id="main">
+            <video class="background-video" autoplay muted loop>
+                <source src="video/video.mp4" type="video/mp4">
+            </video>
+            <div class="container">
+
+                <div class="main-cont">
+                  <div class="left-side">
+                     <h1 class="main-logo">SMM SHARK AGENCY</h1>
+                     <h5 class="title-about">
+                        ЕФЕКТИВНІ ПОСЛУГИ ПРОСУВАННЯ ДЛЯ 
+                        <span  class="main-span">INSTAGRAM</span> ТА 
+                        <span  class="main-span">TIKTOK</span>
+                     </h5>
+                   </div>
+                  <div class="right-side">
+                     <div class="items-holder">
+                            <div class="item">
+                               <h4 class="number">01</h4>
+                               <h3 class="main-text">25 експертів у команді</h3>
+                            </div>
+                            <div class="item">
+                               <h4 class="number">02</h4>
+                               <h3 class="main-text">50+ активних 
+                                клієнтів</h3>
+                            </div>
+                            <div class="item">
+                               <h4 class="number">03</h4>
+                               <h3 class="main-text">100+ успішних проєктів</h3>
+                            </div>
+                            <div class="item">
+                              <h4 class="number">04</h4>
+                              <h3 class="main-text">якісні повноцінні стратегії            </h3>
+                            </div>
+                            <div class="item">
+                              <h4 class="number">05</h4>
+                              <h3 class="main-text">професійна зйомка контенту </h3>
+                            </div>
+                            <div class="item">
+                              <h4 class="number">06</h4>
+                              <h3 class="main-text">комплексна 
+                                пропозиція       </h3>
+                            </div>
+                              <a href="#contacts" class="main-btn">
+                                  Безкоштовна консультація
+                              </a>
+                      </div>
+                  </div>
+             
+                </div>
+            
+            </div>
+        </section>
+ 
+        <section class="services" id="services">
+            <div class="container">
+                <h2 class="serv-title">
+                    Послуги SMM
+                </h2>
+                <div class="serv-cards">
+                        <div class="serv-card">
+                        
+                            <h4 class="serv-name" id="instagram">01 Instagram</h4>
+                            <hr>
+                            <ul class="serv-menu">
+                                <li class="serv-text">стратегія</li>
+                                <li class="serv-text"> зйомка відео</li>
+                                <li class="serv-text">реклама</li>
+                                <li class="serv-text">ведення під ключ</li>
+                            </ul>
+                            <h4 class="serv-price">1099$</h4>
+                        
+                            <a href="#" class="serv-btn">Замовити</a>
+                        </div>
+                        <!-- <img src="images/left-kurs.svg" alt="стрілка вліво"> -->
+                        <div class="serv-card">
+                            <h4 class="serv-name" id="tiktok">02 Tik Tok</h4>
+                            <hr>
+                            <ul class="serv-menu">
+                                <li class="serv-text">стратегія</li>
+                                <li class="serv-text"> зйомка відео</li>
+                                <li class="serv-text">реклама</li>
+                                <li class="serv-text">ведення під ключ</li>
+                            </ul>
+                            <h4 class="serv-price">1499$</h4>
+                        
+                            <a href="#" class="serv-btn">Замовити</a>
+                        </div>
+                        <!-- <img src="images/right-kurs.svg" alt="стрілка вправо"> -->
+                        <div class="serv-card">
+                            <h4 class="serv-name" id="target">03 Target</h4>
+                            <hr>
+                            <ul class="serv-menu">
+                                <li class="serv-text">стратегія</li>
+                                <li class="serv-text">просування
+                                </li>
+                                <li class="serv-text">реклама
+                                </li>
+                                <li class="serv-text">контент-план
+                                </li>
+                            </ul>
+                            <h4 class="serv-price">999$</h4>
+                            
+                            <a href="#" class="serv-btn">Замовити</a>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+         
+
+        <section class="ndcont">
+            <section class="about-us" id="about-us">
+            <div class="container">
+                <h2 class="about-us-title">Про нас</h2>
+                <div class="about-us-info">
+                    <div class="about-us-text">
+                        <h4 class="first-text">
+                            За короткий проміжок часу ми виросли від 1 до 50 проєктів...
+                        </h4>
+                        <h4 class="second-text">
+                            ...ставши однією з найбільш швидко зростаючих SMM агенцій в Україні. Наша мета — надавати клієнтам високоякісні та ефективні рішення для успішного розвитку їхнього бізнесу.
+                        </h4>
+                        <h4 class="third-text">
+                            Наша команда забезпечує індивідуальний підхід до кожного проєкту та максимальну результативність у просуванні брендів у соціальних мережах.
+                        </h4>
+                    </div>
+                    <img src="images/about-us.png" alt="про нас" class="about-img">
+                </div>
+            </div>
+            </section>  
+            <hr class="line">
+            <section class="cases" id="cases">
+            <div class="container">
+                <h2 class="cas-title">Кейси</h2>
+
+                <div class="cas-cards">
+                        <div class="card-holder">
+                            <div class="card">
+                                <h4 class="card-title">snazzy.clo</h4>
+                                <p class="card-text">магазин жіночого одягу
+                                <img src="images/cases.svg" alt="стрілка ввправо" class="arrow"></p>
+                                
+                            </div>
+                            <div class="card">
+                                <h4 class="card-title">auto.traff</h4>
+                                <p class="card-text">продаж автомобілів
+                                <img src="images/cases.svg" alt="стрілка ввправо" class="arrow"></p>
+                               
+                            </div>
+                            <div class="card">
+                                <h4 class="card-title">bibliotek.de.parfum</h4>
+                                <p class="card-text">відомий бренд парфумерії
+                                <img src="images/cases.svg" alt="стрілка ввправо" class="arrow"></p>
+                                
+                            </div>
+                            <div class="card">
+                                <h4 class="card-title">global.company</h4>
+                                <p class="card-text">іноземна IT-компанія
+                                <img src="images/cases.svg" alt="стрілка ввправо" class="arrow"></p>
+                                
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            </section>
+        </section>
+           
+
+        <section class="footer" id="contacts">
+            <div class="container">
+                <div class="footer-container">
+                    <div class="about">
+                        <img src="images/whitelogo.svg" alt="logo" class="imgs">
+                        <p class="text">
+                            Успіх наших клієнтів - це наш успіх! Саме
+                            тому ми розробляємо виключно якісні послуги, які
+                            забезпечують бізнесу розвиток.
+                        </p>
+                        <div class="about-infa">
+                            <p class="about-num">
+                                +380 XX XXX XX XX
+                            </p>
+                            <p class="about-adr">
+                                м. Львів, вул Кульпарківська, 200a
+                            </p>
+                            <p class="about-gm">
+                                smmshark@gmail.com
+                            </p>
+                        </div>
+                        <div class="soc-icons">
+                            <img src="/icons/instagram.svg" alt="#" class="icon">
+                            <img src="/icons/tiktok.svg" alt="#" class="icon">
+                            <img src="/icons/telegram.svg" alt="#" class="icon">
+                        </div>
+
+                    </div>
+                                        
+                    <div class="contact-us-form">
+                        <input type="text" name="name" placeholder="Ваше ім'я" class="form-name" required>
+                        <input type="number" name="phone" placeholder="+380 (XXX) XX XX XX" class="form-num" required>
+                        <select name="service" id="" class="service">
+                            <option value="" disabled selected>Виберіть послугу</option>
+                            <option value="">Instagram</option>
+                            <option value="">Tiktok</option>
+                            <option value="">Target</option>
+                        </select>
+                        <textarea type="text" name="question" placeholder="Ваш запит..." class="form-ask" required></textarea>
+                        <label class="Checkbox">
+                            <input type="checkbox" name="Agree" class="" required>
+                            Згідний(-а) з обробкою персональних даних.
+                        </label>
+                        <input type="submit" value="Надіслати" name="Send" class="form-btn">
+                    </div>
+
+                    <div class="last">
+                        <h4 class="last-title">Виникли питання?</h4>
+                        <p class="last-text1">
+                            Це абсолютно безкоштовно! Ви не повинні робити замовлення, якщо скористаєтеся цією формою для зв'язку.
+                        </p>
+                        <p class="last-text2">
+                             Отримайте більш детальну інформацію про вартість та термін виконання вашого завдання, адже головна сила — це знання.
+                        </p>                   
+                    </div>
+                </div>            
+            </div>  
+        </section>
+        
+    </main>
+
+ <script>
+      function toggleSidebar(){
+       const sidebar = document.querySelector('.sidebar');
+       sidebar.classList.toggle('sidebar_active'); 
+      }
+
+      window.addEventListener('resize', () => {
+            const sidebar = document.querySelector('.sidebar');
+            if (window.innerWidth > 1000) {
+            sidebar.classList.remove('sidebar_active');
+            }
+        });
+ </script>
+
+</body>
+</html>
