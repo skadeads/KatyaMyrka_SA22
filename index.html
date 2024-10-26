@@ -323,12 +323,6 @@
        sidebar.classList.toggle('sidebar_active'); 
       }
 
-      menuLinks.forEach(link => {
-        link.addEventListener('click', () => {
-          toggleSidebar();
-        }); 
-      });
-
       window.addEventListener('resize', () => {
             const sidebar = document.querySelector('.sidebar');
             if (window.innerWidth > 1000) {
