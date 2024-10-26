@@ -333,7 +333,6 @@ hr{
     line-height: clamp(93px, 6.51vw ,125px);
 }
 .cas-cards{
-    /* padding: 0 100px 0; */
     display: flex;
     justify-content: center;
     gap: 90px;
@@ -557,11 +556,9 @@ textarea{
   margin: 0;
   height: 100vh;
   width: 250px;
-  border-radius: 25px 0 0 25px;
   z-index: 999;
-  background-color: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(10px);
-  color: #FAF5E9;
+  background-color: #FFFFFF;
+  color: #D40000;
   display: flex;
   flex-direction: column;
   transform: translateX(100%); 
